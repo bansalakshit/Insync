@@ -1,0 +1,30 @@
+.sidebar {
+    min-height: 100vh;
+    background: #202D8A;
+    .menu {
+        .item {
+            &.logo {
+                background: #fff !important;
+                border-bottom: none !important;
+            }
+            &.active {
+                background: #4855B0 !important;
+                border-bottom: none !important;
+            }
+            cursor: pointer;
+            border-bottom: 1px solid #4E5CC2;
+            height: 7.5rem;
+            img {
+                height: 32px;
+                margin: 0 auto;
+            }
+            -ms-flex-align: center!important;
+            align-items: center!important;
+            display: -ms-flexbox!important;
+            display: flex!important;
+        }
+        .item:last-child {
+            border-bottom: none !important;
+        }
+    }
+}

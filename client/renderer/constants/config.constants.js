@@ -1,0 +1,5 @@
+export const configConstants = {
+    REQUEST_LOADING: 'CONFIG_LOADING',
+    REQUEST_SUCCESS: 'CONFIG_SUCCESS',
+    REQUEST_FAILURE: 'CONFIG_FAILURE'
+}

@@ -1,0 +1,22 @@
+.live-page-header {
+    background: #F2F2F2;
+    height: 7.5rem;
+    padding-top: 2rem;
+    .user-info {
+        .name {
+            font-size: 24px;
+            line-height: 31px;
+            color: #212529;
+            display: inline-block;
+        }
+        .online-status {
+            display: inline-block;
+            margin-left: 60px;
+        }
+    }
+    .user-time {
+        font-size: 16px;
+        line-height: 20px;
+        color: #7D7D7D;
+    }
+}

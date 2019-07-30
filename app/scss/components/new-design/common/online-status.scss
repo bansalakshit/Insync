@@ -1,0 +1,11 @@
+.online-status {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    &.online {
+        background: #52FF00;
+    }
+    &.offline {
+        background: #ccc;
+    }
+}

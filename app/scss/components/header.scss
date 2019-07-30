@@ -1,0 +1,45 @@
+
+.header {
+    border-bottom: 2px solid #c4c4c447;
+    .navbar {
+        background: transparent !important;
+        padding: 0;
+
+        .navbar-brand {
+            a {
+                text-decoration: none;
+                color: #000000;
+                img {
+                    width: 151px;
+                }
+            }
+        }
+
+        img.profile-image {
+            width: 35px !important;
+            height: 35px !important;
+            border: solid 1px #ccc;
+            border-radius: 50%;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .btn-sign-in {
+                    margin-top: 17px;
+                }
+                .nav-link {
+                    cursor: pointer;
+                    color: #000000;
+                    &.active {
+                        border-bottom: 2px solid #449D2E;
+                    }
+                    padding: 30px 15px;
+                    font-size: 16px;
+                    line-height: normal;
+                    opacity: 0.99;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+.image-display {
+    text-align: center;
+    .row {
+        img {
+            width: 100%;
+        }
+    }
+    .single {
+        height: 100%;
+        img {
+            height: 100% !important;
+        }
+    }
+}

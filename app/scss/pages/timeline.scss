@@ -1,0 +1,61 @@
+
+.timeline {
+    .time-bar {
+        .month-navigator {
+            .prev-month {
+                margin-right: 15px;
+            }
+            .next-month {
+                margin-left: 15px;
+            }
+            .current-month {
+                font-size: 18px;
+            }
+            .today {
+                margin-left: 25px;
+            }
+        }
+
+        .days-navigator {
+            margin-top: 25px;
+            // border: solid 1px #e5e5e5;
+            .day {
+                padding-left: 0;
+                padding-right: 0;
+                text-align: center;
+                border-left: solid 1px #e5e5e5;
+                border-top: solid 1px #e5e5e5;
+                border-bottom: solid 1px #e5e5e5;
+                cursor: pointer;
+                &.weekend {
+                    color: red !important;
+                    .number {
+                        color: red !important;
+                    }
+                }
+                &.active {
+                    border: 1px solid #28a745!important;
+                }
+                .name {
+                    font-size: 11px;
+                }
+                .number{
+                    &.today {
+                        background:#fffec1 !important;
+                    }
+                    color: #4172ac;
+                    background: #eee;
+                    font-size: 15px;
+                    padding: 7px 0;
+                }
+            }
+            .day:last-child {
+                border-right: solid 1px #e5e5e5;
+            }
+        }
+    }
+
+    .screenshots, .log-time {
+        margin-top: 50px;
+    }
+}

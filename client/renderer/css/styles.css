@@ -1,0 +1,189 @@
+.page-content {
+    margin-top: 25px;
+}
+
+.timer .value {
+    font-size: 55px;
+}
+
+.btn-actions {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.task-timer .priority-number {
+    font-size: 10px;
+}
+
+.task-timer .timer-container {
+    text-align: right;
+}
+
+.timer2 {
+    margin-right: 5px;
+}
+
+.timer2 .value {}
+
+.timer2 .blinker {
+    font-size: 7px;
+}
+
+.app-version {
+    font-size: 10px;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    background: #FFFFFF;
+    border-radius: 100px;
+    box-shadow: none;
+    font-size: 16px;
+    line-height: normal;
+    color: #494946;
+    opacity: 0.99;
+    height: 2.75rem;
+}
+
+input[type=text].transparent-border,
+input[type=email].transparent-border,
+input[type=password].transparent-border {
+    border-color: transparent;
+}
+
+.btn {
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 0.75rem 1rem;
+}
+
+.btn.btn-primary {
+    background: #202D8A;
+    border-color: #202D8A;
+    line-height: normal;
+    color: #FFFFFF;
+    opacity: 0.99;
+}
+
+
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('/static/font/ProductSans-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Italic'), url('/static/font/ProductSans-Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Thin Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Thin Regular'), url('/static/font/ProductSans-Thin.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Light Regular'), url('/static/font/ProductSans-Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Medium Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Medium Regular'), url('/static/font/ProductSans-Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Black Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Black Regular'), url('/static/font/ProductSans-Black.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Thin Italic'), url('/static/font/ProductSans-ThinItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Light Italic'), url('/static/font/ProductSans-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Medium Italic'), url('/static/font/ProductSans-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Bold'), url('/static/font/ProductSans-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Bold Italic'), url('/static/font/ProductSans-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Product Sans Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Black Italic'), url('/static/font/ProductSans-BlackItalic.woff') format('woff');
+}
+
+body {
+    font-family: 'Product Sans Regular';
+}
+
+.todays-log-time {
+    font-family: 'Product Sans Bold';
+    font-size: 32px;
+}
+
+.text-primary {
+    color: #26359E !important;
+}
+
+.tasks-list {
+    max-height: 370px;
+    overflow: auto;
+}

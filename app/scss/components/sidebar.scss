@@ -1,0 +1,40 @@
+.live-sidebar {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 140px;
+    border-left: 2px solid #ccc;
+    background: #fff;
+    padding: 15px;
+    overflow: hidden;
+    .btn-close {
+        position: absolute;
+        right: 15px;
+    }
+    .user-info {
+        img {
+            margin-right: 15px;
+            width: 65px;
+            height:65px;
+            border-radius: 50%;
+            border: solid 1px #ccc;
+        }
+        .media-body {
+            .media-heading {
+                margin-top: 15px;
+            }
+        }
+    }
+    .tasks-list {
+        .sidebar-content {
+            padding: 15px 0;
+            .list-group-item-heading {
+                overflow-wrap: break-word;
+            }
+            .sidebar-task-list {
+                overflow-y: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "InSync Web App",
+  "alias": "insync.team",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "APP_NAME": "InSync Team",
+    "APP_URL": "https://insync.team",
+    "API_URL": "@insync-api-url"
+  }
+}

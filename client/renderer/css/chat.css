@@ -1,0 +1,93 @@
+.chat-container {
+    width: 45%;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    background: #fff;
+    bottom: 0;
+}
+
+
+.chat-container .info-box {
+    height: 41px;
+    padding: 8px 15px;
+    border-left: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.chat-container .info-box .badge {
+    margin-left: 15px;
+}
+
+.chat-container .info-box .icon {
+    float: right;
+}
+
+.chat-box .info-box {
+    bottom: 0;
+    position: absolute;
+}
+
+.chat-fullbar .chat-box {
+    border-left: solid 1px #ccc;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.chat-fullbar .chat-box-form input {
+    border-radius: 0 !important;
+    border-left: 0;
+    border-right: 0;
+    height: 44px;
+}
+
+.chat-box .messages {
+    padding: 10px 15px;
+    overflow-y: auto;
+}
+
+.chat-box .messages .message {
+    padding: 12px 0;
+}
+
+.chat-box .messages .message .avatar.active img {
+    border: solid 1px #007bff !important;
+}
+
+.chat-box .messages .message .avatar img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: solid 1px #ccc;
+}
+
+.chat-box .messages .message .message-container {
+    margin-left: 15px;
+}
+
+.chat-box .messages .message .message-container .time {
+    float: right;
+    font-size: 10px;
+    opacity: 0.65;
+}
+
+.chat-box .messages .message .message-container .name {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.chat-box .messages .message .message-container .time .fa-check-double {
+    margin-left: 5px;
+}
+
+.chat-box .messages .message .message-container .text {
+    font-size: 13px;
+}
+
+
+.chat-container .chat-form {
+    border-left: solid 1px #ccc;
+}

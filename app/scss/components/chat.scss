@@ -1,0 +1,41 @@
+.chat {
+
+    .messages-container {
+        overflow-y: auto;
+        margin-bottom: 10px;
+        .messages {
+            .message {
+                padding: 8px 0;
+                .avatar {
+                    img {
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 100%;
+                        border: solid 1px #ccc;
+                    }
+                    &.active {
+                        img {
+                            border: solid 1px #007bff!important;
+                        }
+                    }
+                }
+                .message-container {
+                    margin-left: 15px;
+                    .name {
+                        font-weight: 500;
+                        font-size: 13px;
+                    }
+                    .time {
+                        font-size: 10px;
+                        opacity: 0.65;
+                        float: right;
+                    }
+                    .text {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+.logged-in-user {
+    height: 7.5rem;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    background: #F2F2F2;
+    padding: 15px 25px;
+    .user-card {
+        .media-body {
+            margin-top: 17px;
+        }    
+    }
+    .user-settings {
+        position: absolute;
+        right: 25px;
+        top: 35px;
+    }
+}

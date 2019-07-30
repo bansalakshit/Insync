@@ -1,0 +1,71 @@
+.users-list {
+    background: #F2F2F2;
+    .search-box {
+        padding: 15px 25px;
+        .input-group-prepend {
+            border: 1px solid #D1D1D1;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            img {
+                width: 15px;
+                height: 15px;
+                margin: 13px;
+            }
+        }
+        input {
+            background: #F2F2F2;
+            border: 1px solid #D1D1D1;
+            border-radius: 5px;
+            border-left: none !important;
+        }
+    }
+    .users {
+        overflow-y: auto;
+        overflow-x: hidden;
+        .user-item {
+            position: relative;
+            cursor: pointer;
+            &.active {
+                background: #fff !important;
+            }
+            .user-card {
+                height: 132px;
+                padding: 15px 25px;
+                .media-body {
+                    margin-top: 17px;
+                    .name {
+                        font-size: 23px;
+                        line-height: 29px;
+                        color: #212529;
+                        width: 85%;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                    .helper-text {
+                        font-size: 15px;
+                        line-height: 19px;
+                        color: #737373;
+                        width: 85%;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                }    
+            }
+            .legends {
+                position: absolute;
+                right: 5px;
+                top: 38px;
+                .online-status {
+                    position: absolute;
+                    right: 30px;
+                }
+                .messages-count {
+                    position: absolute;
+                    right: 10px;
+                }
+            }
+        }
+    }
+}

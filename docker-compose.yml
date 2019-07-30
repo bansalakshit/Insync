@@ -1,0 +1,41 @@
+version: "2"
+services:
+  # mongo:
+  #   container_name: mongoinsync
+  #   image: mongo
+  #   volumes:
+  #     - ./data:/data/db
+  #   ports:
+  #     - "27018:27017"
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME=insync_admin
+  #     - MONGO_INITDB_ROOT_PASSWORD=F5BE04B7E78AF67F219169E882337D3A
+  #     - MONGO_INITDB_DATABASE=insync
+  #   volumes:
+  #     - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+  server:
+    container_name: serverinsync
+    restart: always
+    build: ./server/
+    environment:
+      - APP_NAME=InSync Team
+      - BASE_URL=https://insync.team
+      - SESSION_SECRET=n1ME1wTu3eq83RVdMvYgzNGN2udqrpWb9X
+      - EMAIL_NAME=Insync Team
+      - EMAIL_FROM=suppport@insync.team
+      - MAILGUN_API_KEY=e8c4eb2b1db6da66d518728075b344f5-9ce9335e-345c6bfe
+      - MAILGUN_DOMAIN=insync.team
+      - S3_ACCESS_KEY=AKIAJNLUTY5ZB54W7KYA
+      - S3_SECRET_ACCESS_KEY=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
+      - S3_BUCKET=insync2
+      - NODE_ENV=production
+      # - MONGODB_URI=mongodb://insync_user:F5BE04B7E78AF67F219169E882337D3A@mongoinsync:27017/insync
+      - MONGODB_URI=mongodb://insync_user:F5BE04B7E78AF67F219169E882337D3@ds147180.mlab.com:47180/insync
+    ports:
+      - "8083:8080"
+    # depends_on:
+    #   - mongo
+# networks:
+#   default:
+#     external:
+#       name: insync-vps1-dockercompose-nginx_default

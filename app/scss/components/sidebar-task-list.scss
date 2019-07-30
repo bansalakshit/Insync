@@ -1,0 +1,10 @@
+.sidebar-task-list {
+    .item {
+        padding: 10px 0;
+        &.active {
+            background: #d4edda;
+        }
+        .log-time {
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.landing-page {
+    
+}
+
+.early-access {
+    background-image: url('/static/img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    .text-banner {
+        font-size: 40px;
+        line-height: normal;
+        color: #FFFFFF;
+        margin-bottom: 110px;
+    }
+}
+
+.features {
+    padding: 7rem 0;
+    .text-description {
+        font-size: 40px;
+        line-height: normal;
+        color: #26359E;
+        margin-bottom: 3rem;
+    }
+    .items {
+        .item {
+            text-align: center;
+            &.lowered {
+                margin-top: 5rem;
+            }
+            img {
+                width: 100%;
+            }
+            .caption {
+                font-size: 24px;
+                line-height: normal;
+                color: #000000;
+                margin-bottom: 1.5rem;
+            }
+            .sub-caption {
+                font-size: 16px;
+                line-height: normal;
+                text-align: center;
+                color: #000000;
+                opacity: 0.75;
+                font-family: 'Product Sans Thin Regular'
+            }
+        }
+    }
+}
