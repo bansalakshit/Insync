@@ -33,7 +33,7 @@
     "neutron": "^2.9.1",
     "next": "^8.0.3",
     "next-redux-wrapper": "^3.0.0-alpha.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "popper.js": "^1.14.7",
     "preact": "^8.4.2",
     "react": "^16.8.3",
