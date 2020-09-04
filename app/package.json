@@ -21,7 +21,7 @@
     "next": "8.0.4-canary.22",
     "next-manifest": "^1.6.0",
     "next-redux-wrapper": "^3.0.0-alpha.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.9.2",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
