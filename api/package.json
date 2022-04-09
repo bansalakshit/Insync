@@ -27,7 +27,7 @@
     "lodash": "^4.17.11",
     "mailgun-js": "^0.22.0",
     "method-override": "^3.0.0",
-    "moment": "^2.13.0",
+    "moment": "^2.29.2",
     "mongodb": "^3.1.10",
     "mongoose": "5.4.22",
     "morgan": "^1.8.0",
