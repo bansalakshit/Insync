@@ -23,7 +23,7 @@
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.3.1",
-    "electron": "4.0.0",
+    "electron": "15.5.5",
     "electron-builder": "^20.39.0",
     "electron-packager": "^13.1.1",
     "electron-rebuild": "^1.8.4",
